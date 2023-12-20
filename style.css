@@ -49,6 +49,17 @@ button {
   text-transform: capitalize;
 }
 
+.section-subtitle {
+  display: block;
+  font-size: 42px;
+  font-weight: 600;
+  text-transform: capitalize;
+  
+  
+}
+
+
+
 .section-title:after {
   position: absolute;
   content: '';
@@ -78,6 +89,25 @@ button {
   overflow: hidden;
   padding-top: 13px;
   background-color: #ccb7a740;
+}
+.banner-wrap:before {
+  position: absolute;
+  content: '';
+  top:0;
+  right: 0;
+  width:16%;
+  height:50%;
+  background: url(img/banner-bg-right.png) 100% 0%/contain no-repeat;
+}
+
+.banner-wrap:after {
+  position: absolute;
+  content: '';
+  bottom:0;
+  left: 0;
+  width:14%;
+  height:44%;
+  background: url(img/banner-bg-left.png) 0% 100%/contain no-repeat;
 }
 
 .header {
@@ -164,9 +194,84 @@ button {
 .banner-img {
   position: absolute;
   top: 40px;
-  right:-125px;
+  right:-140px;
   width: 60%;
   height:80%;
   background: url(img/banner.png) 0% 0%/contain no-repeat;
   
 }
+
+/* About */
+#about-section {
+  padding: 126px 0 81px;
+
+}
+.about-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:10px;
+}
+
+.about-img {
+  width:50%;
+}
+
+.about {
+  max-width: 570px;
+}
+
+.about__subtitle {
+  margin: 6px 0 3px;
+}
+
+.about__text {
+  margin-bottom: 35px;
+  font-family: "poppins", Arial, Helvetica, sans-serif;;
+  }
+
+  /* Shop */
+  #shop-section {
+    padding-bottom: 120px;
+    text-align: center;
+  }
+
+  .shop__subtitle {
+    margin:2px 0 44px;
+  }
+  
+  .shop-wrap {
+    display: flex;
+    justify-content: space-between;
+    gap:24px;
+  }
+
+  .shop-img {
+    width: 267px;
+    height: 222px;
+  }
+
+  .shop_name {
+    display: block;
+    margin; 20px 0 10px;
+    font-size: 20px;
+  }
+
+  .shop__price {
+    display: block;
+    
+    font-size: 20px;
+  }
+
+  .shop__btn {
+    margin: 25px auto 0;
+    padding: 15px 25px;
+    border: 1px solid #3D3017;
+    color:#3D3017;
+    text-transform: capitalize;
+    }
+    
+    .shop__btn:hover {
+      color: #fff;
+      background-color: #3D3017;
+    }
