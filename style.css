@@ -275,3 +275,32 @@ button {
       color: #fff;
       background-color: #3D3017;
     }
+
+    /* feedback */
+
+  #feedback-section {
+    padding: 100px 0;
+    background-color:rgba(204, 183, 167, 0.25);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .feedback {
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  .feedback__img {
+    width: 408px;
+    height: 430px;
+  }
+
+  .feedback-info {
+    position: relative;
+    max-width: 607px;
+    padding-top: 83px;
+    text-align: center;
+  }
+
+  
